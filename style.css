@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* utility class */
+.text-center {
+  text-align: center;
+}
+.orange {
+  color: orange;
+}
+
+.p-1 { padding: 1rem;}
+.p-2 { padding: 2rem;}
+
+.py-1 { padding: 1rem 0rem;}
+.py-2 { padding: 2rem 0rem;}
+
+.container {
+  max-width: 850px;
+  margin: auto;
+}
+.border {
+  border-bottom: 1px solid black;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+header ul {
+  margin-left: 10rem;
+}
+.skills ul {
+display: flex;
+}
+
+.skills ul li {
+  margin-left: 15px;
+  list-style: none;
+}
